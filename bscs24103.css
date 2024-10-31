@@ -1,13 +1,52 @@
 
 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.info{
+  background-color: #333;
+  color: #fff;
+  padding:5px;
+  text-align: center;
+}
+.links{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  
+
+}
+.links img {
+  margin-top: 50px;
+  object-fit: cover;
+}
+.list{
+  display: flex;
+  justify-content: space-evenly;
+}
 .First-Div{
     width: 500px;
-    height: 500px;
+    height: 400px;
     background-color: aquamarine;
     border-width: 3px;
     border-color: aqua;
     border-radius: 20%;
-    margin: 10px;
-    padding: 5px;
+    margin: 10px auto;
+    padding: 40px;
 
+}
+.Normal-Para{
+  background-color: rgb(123, 199, 123);
+  
+}
+#fav-para{
+  background-color: rgb(221, 86, 160);
+}
+.Image{
+  display: flex;
+  
 }
